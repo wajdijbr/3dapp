@@ -1,0 +1,272 @@
+.wallpaper-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.dock-background {
+  position: absolute;
+  top: calc(50% + 315.87px);
+  left: 12px;
+  border-radius: 37px;
+  background-color: rgba(245, 245, 245, 0.15);
+  backdrop-filter: blur(30px) brightness(110%);
+  width: 368px;
+  height: 97px;
+}
+.page-control-dot1,
+.page-control-dot2,
+.page-control-dot3 {
+  position: absolute;
+  top: calc(50% - 3.5px);
+  left: calc(50% + 13px);
+  width: 8px;
+  height: 8px;
+}
+.page-control-dot2,
+.page-control-dot3 {
+  left: calc(50% - 4px);
+}
+.page-control-dot3 {
+  left: calc(50% - 21px);
+}
+.page-control-dot {
+  position: absolute;
+  bottom: 136px;
+  left: calc(50% - 35.5px);
+  border-radius: var(--br-smi);
+  background-color: transparent;
+  backdrop-filter: blur(30px) brightness(110%);
+  width: 72px;
+  height: 27px;
+  display: none;
+}
+.label,
+.platter {
+  position: absolute;
+}
+.platter {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 35px;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(30px) brightness(110.43%);
+}
+.label {
+  top: calc(50% - 9px);
+  left: 15px;
+  font-weight: 600;
+  backdrop-filter: blur(30px) brightness(150%);
+}
+.search-field {
+  position: absolute;
+  bottom: 135px;
+  left: calc(50% - 39px);
+  width: 78px;
+  height: 30px;
+}
+.app-icons {
+  position: absolute;
+  height: calc(100% - 115px);
+  width: calc(100% - 62px);
+  top: 84px;
+  right: 31px;
+  bottom: 31px;
+  left: 31px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.cap-icon {
+  position: absolute;
+  top: calc(50% - 2px);
+  right: 0;
+  width: 1.33px;
+  height: 4px;
+  opacity: 0.4;
+}
+.capacity {
+  position: absolute;
+  height: calc(100% - 4px);
+  top: 2px;
+  bottom: 2px;
+  left: 2px;
+  border-radius: 2.6px;
+  background-color: var(--color-white);
+  width: 21.5px;
+}
+.battery {
+  position: absolute;
+  top: calc(50% - 3.91px);
+  right: 32.37px;
+  border-radius: 4px;
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 28.13px;
+  height: 13px;
+}
+.wifi-icon {
+  position: absolute;
+  top: calc(50% - 3.5px);
+  right: 67.5px;
+  width: 17px;
+  height: 12.2px;
+}
+.cellular-connection-icon {
+  position: absolute;
+  top: calc(50% - 3px);
+  right: 91.25px;
+  width: 19.75px;
+  height: 11.92px;
+}
+.time1 {
+  position: absolute;
+  top: 0;
+  left: 9px;
+  font-weight: 600;
+}
+.time-blue-task,
+.time-green-task,
+.time-red-task {
+  position: absolute;
+  height: calc(100% + 1px);
+  width: 100%;
+  top: -1px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-13xl);
+  background-color: #007aff;
+  display: none;
+}
+.time-green-task,
+.time-red-task {
+  background-color: #ff3b30;
+}
+.time-green-task {
+  background-color: #34c759;
+}
+.time4 {
+  position: absolute;
+  top: 0;
+  left: 13px;
+  font-weight: 600;
+}
+.time-light {
+  position: absolute;
+  height: calc(100% + 1px);
+  width: 100%;
+  top: -1px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.time {
+  position: absolute;
+  top: calc(50% - 8.5px);
+  left: 44px;
+  width: 54px;
+  height: 21px;
+}
+.bars-status-bar-iphone,
+.home-screen-light {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.bars-status-bar-iphone {
+  height: 53px;
+  font-size: var(--font-size-base);
+}
+.home-screen-light {
+  height: 100%;
+  bottom: 0;
+}
+.label1 {
+  position: absolute;
+  bottom: 0;
+  left: 2px;
+}
+.app-icon,
+.notification-dot-child {
+  position: absolute;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+}
+.app-icon {
+  width: calc(100% - 11px);
+  top: 12px;
+  right: 11px;
+  border-radius: var(--br-smi);
+  height: 60px;
+  object-fit: cover;
+}
+.notification-dot-child {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  max-height: 100%;
+}
+.div {
+  position: absolute;
+  top: 0.5px;
+  left: calc(50% - 4px);
+  line-height: 21px;
+}
+.notification-dot {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 24px;
+  height: 24px;
+  font-size: var(--font-size-base);
+}
+.your-app {
+  position: absolute;
+  top: calc(50% + 35.86px);
+  left: 29px;
+  width: 71px;
+  height: 91px;
+}
+.display-shape {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url(/public/display-shape@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.home-screen-custom-app-icon {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 852px;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-sf-pro);
+}
